@@ -1,0 +1,29 @@
+To compile the project open a new visual studio 2017 project 
+and add all of the /src files.
+
+The first step toward compilation is linking the libraries to the project.
+Go to the solution explorer and then 'VC++ Directories'
+
+We can then add directories to let the project know where to search.
+Add a new entry of the direct path to '\libraries\Include' in the
+'Include Directories', you should also add a path to your project folder
+so the include<etc.h> statements work. Also take this opportunity to add
+the Libs folder to the 'Library DIrectories'.
+
+Next go to the 'Linker' tab, then 'Input' and add the following list to the 
+additional dependencies:
+	opengl32.lib
+	glfw3.lib
+	glew32s.lib
+	assimp-vc140-mt.lib
+	libnoise.lib
+	
+Finally, make sure to place the following files in the /libraries folder into
+your project folder.
+	libnoise.dll
+	assimp-vc140-mt.dll
+	
+	
+If the project does not compile, you may have to compile the libraries so they
+are customized for your computer using CMake. A good tutorial can be found here:
+https://learnopengl.com/#!Getting-started/Creating-a-window
