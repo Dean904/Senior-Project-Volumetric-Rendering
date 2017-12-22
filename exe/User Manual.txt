@@ -1,0 +1,37 @@
+
+Senior Project User Guide:
+
+After launching the executable the chunks, octree, and meshes will generate.
+
+You will then be able to move around the environment using WASD, the space 
+bar, and your mouse. Clicking and dragging with the mouse will pivot the 
+camera. Holding both mouse buttons down will also allow you to move in the 
+direction of the camera (useful for moving down).
+
+NOTE: Meshes will not display if you are looking at them from behind.
+
+There are 4 rendering modes that you can cycle through by pressing 'B'. 
+(Starts at 1).
+
+	1: Marching Cubes Mesh Rendering
+	2: Naive Rendering
+	3: Naive (Recursive) Octree Rendering
+	4: Raycast Rendering
+	
+Mode 4 will only display voxels after a full-screen raycast has been
+computed. This can be done by pressing 'Q'. It is recommended that you 
+position the camera while in rendering mode 1 before initializing the
+full-screen raycast. WARNING: This will take an extended period of time
+(It can take up to a minute to compute on my computer).
+
+After computing a full-screen raycast you can fly around the environment
+to see its effects. You may also press 'Z' to cast single rays and view
+the trace and output of the raycast algorithm.
+	
+	
+Voxels can be destroyed or created by getting sufficiently close and 
+pressing 'R' or 'T' respectively. (Does not apply to Octree rendering)
+
+Pressing 'V' will toggle polygon mode.
+Pressing 'F' will output the current FPS.
+Pressing 'G' will output your current position.
