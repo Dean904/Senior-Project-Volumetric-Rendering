@@ -12,12 +12,12 @@ A short (~5 minute) summary of my project can be found [here.](https://youtu.be/
 
 The final report for my project can be found in the root of the this repository, [here.](https://github.com/Dean904/Senior-Project-Volumetric-Rendering/blob/master/Final%20Report.pdf)
 
-  _Abstract_
+    _Abstract_
  ```markdown
-This report provides a cursory introduction to volumetric rendering and discusses a methodology
-from both paradigms of volume rendering, Indirect and Direct Volume Rendering, in depth. The 
-report discusses the selected reference implementations of the Marching Cubes Meshing algorithm, 
-an indirect volume rendering technique, and Sparse Voxel Octree Raycasting, a direct volume 
-rendering technique, as well as the developed implementations within the projects environment 
-and the projects results. 
+    This report provides a cursory introduction to volumetric rendering and discusses a methodology
+    from both paradigms of volume rendering, Indirect and Direct Volume Rendering, in depth. The 
+    report discusses the selected reference implementations of the Marching Cubes Meshing algorithm, 
+    an indirect volume rendering technique, and Sparse Voxel Octree Raycasting, a direct volume 
+    rendering technique, as well as the developed implementations within the projects environment 
+    and the projects results. 
 ```
