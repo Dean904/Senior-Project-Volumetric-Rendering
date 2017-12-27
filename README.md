@@ -6,7 +6,7 @@ In this project I researched, analyzed and implemented various volume rendering 
 
 A short (~5 minute) summary of my project can be found [here.](https://youtu.be/1pj-FNE4Qj0).
 
-  [https://youtu.be/1pj-FNE4Qj0](https://youtu.be/1pj-FNE4Qj0)
+  [https://youtu.be/1pj-FNE4Qj0](https://youtu.be/1pj-FNE4Qj0) <---------
 
 ### Final Report
 
